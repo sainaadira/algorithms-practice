@@ -6,8 +6,11 @@ e.g palindromeChecker('racecar') // will return true
 
 
 
-function palindromeChecker(text) {
-    v// Code goes here
+const palindromeChecker = (text) => {
+    text.toLowerCase()
+    let reversed = text.split('').reverse().join('')
+    return text === reversed
+
 }
 
 
