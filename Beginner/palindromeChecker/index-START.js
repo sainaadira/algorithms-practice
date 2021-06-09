@@ -6,11 +6,10 @@ e.g palindromeChecker('racecar') // will return true
 
 
 
-const palindromeChecker = (text) => {
+const palindromeChecker = text => {
     text.toLowerCase()
     let reversed = text.split('').reverse().join('')
     return text === reversed
-
 }
 
 
